@@ -55,6 +55,7 @@ func main() {
 		for channel, _ := range pods.Items {
 			midi.NoteOn(0, uint8(channel), uint8(note), uint8(100))
 			note += 5
+			time.Sleep(100 * time.Millisecond)
 		}
 
 		time.Sleep(2 * time.Second)
