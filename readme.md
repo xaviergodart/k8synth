@@ -4,6 +4,10 @@
 
 Your k8s cluster is your favorite noise artist.
 
+## wtf?
+
+`k8synth` connects to your kubernetes cluster and generates midi events from it.
+
 ## Install
 
 Only using `go` (>=1.21) for now:
